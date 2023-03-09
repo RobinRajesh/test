@@ -1,0 +1,32 @@
+.games-streaming-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+}
+
+.games-streaming-now .card {
+    background: none;
+    background-color: #FFFFFF1A;
+}
+
+.games-streaming-now .card__header {
+    position: relative;
+}
+
+.games-streaming-now .card__header::before {
+    content: "";
+    background: red;
+    display: block;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    /* background: url("images/games_streaming_now/play_icon80.png"); */
+}
+
+.games-streaming-now .card__footer {
+    justify-content: space-between;
+    margin: 33px 0 0 0;
+    padding: 3px 8px 6px;
+    color: #C7D5E0;
+}

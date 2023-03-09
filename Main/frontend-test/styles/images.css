@@ -1,0 +1,38 @@
+img {
+    height: auto;
+    object-fit: contain;
+}
+
+.featured-and-recommended__img {
+    height: 100%;
+    width: 100%;
+}
+
+.special-offers__img {
+    width: 306px;
+    object-fit: cover;
+}
+
+.community-recommends__img {
+    width: 616px;
+}
+
+.showcase__img {
+    width: 229px;
+}
+
+.games-streaming-now__img {
+    width: 306px;
+}
+
+.updates-and-offers__img-large {
+    height: 398px;
+    width: 368px;
+    object-fit: cover;
+}
+
+.updates-and-offers__img {
+    height: 182px;
+    width: 173px;
+    object-fit: cover;
+}

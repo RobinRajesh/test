@@ -1,0 +1,238 @@
+.main {
+    overflow: hidden;
+
+
+    &__container {}
+
+    &__column {
+        margin: 50px 0 0 0;
+        position: relative;
+        display: flex;
+        width: 100%;
+
+    }
+
+    &__block {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    &__img {
+        position: relative;
+
+        display: flex;
+        justify-content: center;
+        width: 872px;
+        height: 480px;
+        cursor: pointer;
+
+        img {
+            border-radius: 24px;
+        }
+    }
+
+    &__up-text {
+        position: absolute;
+        left: 70px;
+        top: 60px;
+
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 12px;
+
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+
+        color: #ECEFF4;
+
+        opacity: 0.6;
+    }
+
+    &__title {
+        position: absolute;
+        left: 70px;
+        top: 80px;
+
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #ECEFF4;
+    }
+
+    &__text {
+        position: absolute;
+        left: 70px;
+        top: 148px;
+        width: 320px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ECEFF4;
+
+        opacity: 0.6;
+    }
+
+    &__price {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 70px;
+        top: 258px;
+
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+
+        color: #ECEFF4;
+
+        img {
+            margin: 0 0 0 5px;
+        }
+    }
+
+    &__buy-now {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #ECEFF4;
+        left: 70px;
+        top: 418px;
+    }
+
+    &__ellipse {
+        margin: 0 8px 0 0;
+        width: 8px;
+        height: 8px;
+        background: #ECEFF4;
+        border-radius: 50%;
+    }
+}
+
+.game {
+    margin: 54px 0 107px 0;
+
+    &__column {
+        display: flex;
+        column-gap: 24px;
+    }
+
+    &__block-1 {
+        cursor: pointer;
+
+        padding: 16px;
+        width: 312px;
+        height: 144px;
+        background-image: url(../img/game/01.png);
+        background-repeat: no-repeat;
+
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+
+    &__block-2 {
+        cursor: pointer;
+
+        padding: 16px;
+        width: 312px;
+        height: 144px;
+        background-image: url(../img/game/02.png);
+        background-repeat: no-repeat;
+
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+
+    &__block-3 {
+        cursor: pointer;
+
+        padding: 16px;
+        width: 312px;
+        height: 144px;
+        background-image: url(../img/game/03.png);
+        background-repeat: no-repeat;
+
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+
+    &__block-4 {
+        cursor: pointer;
+
+        padding: 16px;
+        width: 312px;
+        height: 144px;
+        background-image: url(../img/game/04.png);
+        background-repeat: no-repeat;
+
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ECEFF4;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: #ECEFF4;
+    }
+
+    &__price {
+        margin: 60px 0 0 0;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        color: #ECEFF4;
+
+        span {
+            margin: 0 0 0 4px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+            text-decoration-line: line-through;
+
+            color: #ECEFF4;
+
+            opacity: 0.4;
+        }
+    }
+}
+
+
+.swiper-slide-active .main__img {
+    transform: scale(1.1); 
+    transition: transform .2s ease;
+}
+.swiper-slide-next .main__img{
+    opacity: 0.2;
+}
+.swiper-slide-prev .main__img{
+    opacity: 0.2;
+}
+.swiper-slide .con {
+    transform: scale(1);
+    transition: transform .2s ease;
+}

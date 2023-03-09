@@ -1,0 +1,72 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+                                 
+}
+#c{
+	width: 100vw;
+	height: 100vh;
+	cursor: crosshair;
+	image-rendering: pixelated;
+}
+.hidden{
+	display: none;
+}
+#ammo{
+	font-family: Lato;
+	position: fixed;
+	bottom: 0;
+	right: 2vmin;
+	font-size: 10vmin;
+	color: white;
+}
+#alive{
+	font-family: Lato;
+	position: fixed;
+	top: 30px;
+	right: 2vmin;
+	font-size: 10vmin;
+	color: white;
+}
+#gameover{
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	color: white;
+	font-size: 10vmin;
+	font-family: Lato;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-top: 20vmin;
+	text-align: center;
+	display: none;
+}
+#menu{
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+#title{
+	margin-top: 20vmin;
+	display: inline-block;
+	
+}
+#start{
+	margin-top: 30vmin;
+	border: 1vmin solid white;
+	display: inline-block;
+	padding: 3vmin;
+	border-radius: 5vmin;
+	cursor: pointer;
+	transition: transform .2s;
+}
+#start:hover{
+	transform: scale(1.1);
+}

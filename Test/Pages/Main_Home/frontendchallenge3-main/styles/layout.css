@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-content {
+    display: flex;
+    padding-bottom: 2.5rem;
+}
+
+.item {
+    width: 940px;
+}
+
+.item-left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item-center {
+    flex-grow: 1;
+    flex-basis: auto;
+    justify-content: center;
+}

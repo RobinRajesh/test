@@ -1,0 +1,30 @@
+/**
+* This is using tailwind css
+*/
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@font-face {
+  font-family: "PrimeVideoFont";
+  src: url("https://m.media-amazon.com/images/I/51Ja06DDSWL.woff")
+    format("woff2");
+}
+
+body {
+  font-family: "PrimeVideoFont", sans-serif;
+}
+
+.topbox::after {
+  border-right: 4px solid #0f171e;
+  border-bottom: 12px solid transparent;
+  border-top: 12px solid transparent;
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 0;
+  width: 0;
+  right: 0;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}

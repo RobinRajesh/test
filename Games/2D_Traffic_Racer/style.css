@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+#preloadImage{
+	position:relative;
+	top:0;
+	width:600px;
+	display:block;
+	margin:0 auto;
+}

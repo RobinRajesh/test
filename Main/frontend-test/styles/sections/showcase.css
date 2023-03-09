@@ -1,0 +1,19 @@
+.showcase {
+    display: flex;
+}
+
+.showcase .card {
+    width: auto;
+}
+
+.showcase .card__footer {
+    justify-content: flex-end;
+    padding: 5px;
+    font-size: 11px;
+    line-height: 12px;
+}
+
+.showcase .card__price {
+    padding: 3px 6px;
+    background-color: #2B5067;
+}

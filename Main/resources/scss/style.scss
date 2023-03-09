@@ -1,0 +1,25 @@
+@import '_reset.scss';
+@import '_header.scss';
+@import '_main.scss';
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+
+body {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.wrapper {
+    background: #171A21;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+._container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #ECEFF4;
+}

@@ -1,0 +1,17 @@
+.browse-steam-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.browse-steam-button {
+    width: 226px;
+    height: 58px;
+    border-radius: 3px;
+    box-shadow: 0 0 4px #000;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 56px;
+    color: #66c0f4;
+    text-align: center;
+    background-color: #1C6184;
+}

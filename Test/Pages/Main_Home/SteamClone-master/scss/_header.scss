@@ -1,0 +1,165 @@
+.header {
+    background: #171A21;
+    padding: 20px 0 0 0;
+
+    &__container {}
+
+    &__column {}
+
+    &__block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__select{
+        background: #171A21;
+        margin: 0 0 0 5px;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.2s ease-out;
+        &:hover{
+            color: #3969da;
+        }
+        
+    }
+    &__left {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+       
+    }
+    @keyframes main__logo {
+        0% { fill: #49549E; }
+        75% { fill: #1bceb1; }
+        100% { fill: #1bce4f; }
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+    }
+
+    &__install {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #ECEFF4;
+        width: 147px;
+        height: 32px;
+        background: #2256CE;
+        border-radius: 51px;
+
+        img {
+            margin: 4px 4px 4px 12px;
+        }
+
+        a {
+            color: #ECEFF4;
+        }
+
+        transition: all 0.2s ease-out;
+        &:hover{
+            background: #3969da;
+        }
+    }
+
+
+    &__text {
+        display: flex;
+
+        a {
+            color: #ECEFF4;
+            margin: 0 0 0 24px;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+               color: #3969da;
+            }
+        }
+
+    }
+
+    &__block-down {
+        border-bottom: 1px solid #2C313D;
+        border-top: 1px solid #2C313D;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 0;
+        margin: 20px 0 0 0;
+        display: flex;
+    }
+
+    &__burger {
+        margin: 0 24px 0 0;
+
+        img {
+            display: flex;
+        }
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+
+    &__link {
+        color: #ECEFF4;
+        margin: 0 24px 0 0;
+        transition: all 0.2s ease-out;
+        &:hover{
+            color: #3b67cc;
+        }
+    }
+   
+
+    &__input {
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 24px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #ECEFF4;
+
+        opacity: 0.4;
+
+        img {
+            margin: 0 8px 0 0;
+        }
+    }
+
+    &__valve {
+        display: flex;
+        align-items: center;
+        margin: 0 24px 0 0;
+
+
+        img {
+            display: flex;
+        }
+    }
+
+    &__cart {
+        display: flex;
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #ECEFF4;
+            margin: 0 0 0 24px;
+        }
+
+        span {
+            margin: 0 16px 0 8px;
+            opacity: 0.4;
+        }
+    }
+
+
+
+
+}

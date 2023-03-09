@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  background: #ff7800;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+div {
+  user-select: none;
+}
+.health {
+  position: absolute;
+  font-family: courier;
+  color: white;
+  font-weight: bold;
+  border: 5px solid red;
+  font-size: 35px;
+  text-align: center;
+  transform: translateX(-50%) translateY(-50%);
+}
+.instructions {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Courier;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 0;
+}
+.instructions div {
+  text-align: center;
+}
+.game {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.game:hover {
+  cursor: url('http://www.reliablehotwater.com.au/wp-content/themes/reliable/images/boll01.png'), pointer;
+}
+.game .player {
+  position: absolute;
+  background: white;
+  border-radius: 12%;
+}
+.game .bullet {
+  position: absolute;
+  background: white;
+  border-radius: 15%;
+}
+.game .enemy {
+  position: absolute;
+  background: #120158;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.game .dust {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.interface .player-health {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  display: flex;
+  width: 250px;
+  height: 35px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.interface .player-health .amount {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 0, 0, 0.7);
+}
+.interface .score {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-family: courier;
+  font-size: 35px;
+  color: white;
+  display: flex;
+}
+.lose-interface {
+  z-index: 3;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lose-interface .text {
+  font-family: courier;
+  font-size: 50px;
+  color: white;
+  display: flex;
+}
+.lose-interface .text.score {
+  font-size: 35px;
+}
+.lose-interface .restart-button {
+  font-family: courier;
+  color: white;
+  border: 3px solid white;
+  font-size: 22px;
+  padding: 5px 35px;
+  margin-top: 15px;
+}
+.lose-interface .restart-button:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+}

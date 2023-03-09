@@ -1,0 +1,18 @@
+.updates-and-offers-grid {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: fit-content;
+}
+
+.updates-and-offers .gap {
+    margin: 0 0 10px 10px;
+}
+
+.updates-and-offers .card__footer {
+    justify-content: flex-end;
+    padding: 5px;
+    font-size: 11px;
+    line-height: 12px;
+}

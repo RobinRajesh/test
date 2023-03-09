@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Steam</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/layout.css">
+    <link rel="stylesheet" href="./styles/header-nav.css">
+    <link rel="stylesheet" href="./styles/main-nav.css">
+    <link rel="stylesheet" href="./styles/sidebar.css">
+    <link rel="stylesheet" href="./styles/section.css">
+    <link rel="stylesheet" href="./styles/card.css">
+    <link rel="stylesheet" href="./styles/images.css">
+    <link rel="stylesheet" href="./styles/sections/featured-and-recommended.css">
+    <link rel="stylesheet" href="./styles/sections/special-offers.css">
+    <link rel="stylesheet" href="./styles/sections/community-recommends.css">
+    <link rel="stylesheet" href="./styles/sections/browse-steam.css">
+    <link rel="stylesheet" href="./styles/sections/showcase.css">
+    <link rel="stylesheet" href="./styles/sections/games-streaming-now.css">
+    <link rel="stylesheet" href="./styles/sections/updates-and-offers.css">
+    <link rel="stylesheet" href="./styles/sections/footer.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="center">
+                <img src="./images/logo.png" class="header__logo" alt="Steam logo">
+                <nav class="header__nav">
+                    <ul class="header__links">
+                        <li><a href="#" class="header__link">Store</a></li>
+                        <li><a href="#" class="header__link">Community</a></li>
+                        <li><a href="#" class="header__link">About</a></li>
+                        <li><a href="#" class="header__link">Support</a></li>
+                    </ul> 
+                </nav>
+            </div>
+        </header>
+        <div class="page-content">
+            <div class="item item-left">
+                <aside class="sidebar">
+                    <img src=".images/steamcards_promo_02.png" class="sidebar__promo" alt="Steam gift cards">
+                    <ul class="sidebar__content">
+                        <li>
+                            <ul class="sidebar__list">
+                                <li><h3 class="sidebar__header">Gift cards</h3></li>
+                                <li><a href="#" class="sidebar__link">Now Available on Steam</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="sidebar__list">
+                                
+                                <li><h3 class="sidebar__header">Recommended</h3></li>
+                                <li><a href="#" class="sidebar__link">By Friends</a></li>
+                                <li><a href="#" class="sidebar__link">By Curators</a></li>
+                                <li><a href="#" class="sidebar__link">Tags</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="sidebar__list">
+                                <li><h3 class="sidebar__header">Discovery Queues</h3></li>
+                                <li><a href="#" class="sidebar__link">Recommendations</a></li>
+                                <li><a href="#" class="sidebar__link">New Releases</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="sidebar__list">
+                                <li><h3 class="sidebar__header">Browse Categories</h3></li>
+                                <li><a href="#" class="sidebar__link">Top Sellers</a></li>
+                                <li><a href="#" class="sidebar__link">New Releases</a></li>
+                                <li><a href="#" class="sidebar__link">Upcoming</a></li>
+                                <li><a href="#" class="sidebar__link">Specials</a></li>
+                                <li><a href="#" class="sidebar__link">Virtual Reality</a></li>
+                                <li><a href="#" class="sidebar__link">Controller Friendly</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="sidebar__list">
+                                <li><h3 class="sidebar__header">Browse by Genre</h3></li>
+                                <li><a href="#" class="sidebar__link">Free to Play</a></li>
+                                <li><a href="#" class="sidebar__link">Early Access</a></li>
+                                <li><a href="#" class="sidebar__link">Action</a></li>
+                                <li><a href="#" class="sidebar__link">Adventure</a></li>
+                                <li><a href="#" class="sidebar__link">Casual</a></li>
+                                <li><a href="#" class="sidebar__link">Indie</a></li>
+                                <li><a href="#" class="sidebar__link">Massively Multiplayer</a></li>
+                                <li><a href="#" class="sidebar__link">Racing</a></li>
+                                <li><a href="#" class="sidebar__link">RPG</a></li>
+                                <li><a href="#" class="sidebar__link">Simulation</a></li>
+                                <li><a href="#" class="sidebar__link">Sports</a></li>
+                                <li><a href="#" class="sidebar__link">Strategy</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+            <div class="item item-center">
+                <nav class="nav">
+                    <ul class="nav__links">
+                        <li><a href="#" class="nav__link">Your Store</a></li>
+                        <li><a href="#" class="nav__link">Browse</a></li>
+                        <li><a href="#" class="nav__link">Points Shop</a></li>
+                        <li><a href="#" class="nav__link">News</a></li>
+                        <li><a href="#" class="nav__link">Steam Labs</a></li>
+                    </ul>
+                    <form action="/form/submit" method="GET" class="nav__form">
+                        <input type="text" class="nav__search" placeholder="search the store">
+                    </form>
+                </nav>
+
+                <section class="featured-and-recommended">
+                    <h2 class="section__header">Featured and Recommended</h2>
+                    <div class="featured-and-recommended__grid">
+                        <a href="#" class="featured-and-recommended__main">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/892970/capsule_616x353.jpg?t=1615295984" class="featured-and-recommended__img" alt="Valheim">
+                        </a>
+                        <div class="featured-sub">
+                            <h3 class="featured-sub-title">Valheim</h3>
+                            <div class="featured-sub-gallery">
+                                <a href="#"><img src="./images/featured/1.jpg" class="gallery-img" alt="Valheim screenshot"></a>
+                                <a href="#"><img src="./images/featured/2.jpg" class="gallery-img" alt="Valheim screenshot"></a>
+                                <a href="#"><img src="./images/featured/3.jpg" class="gallery-img" alt="Valheim screenshot"></a>
+                                <a href="#"><img src="./images/featured/4.jpg" class="gallery-img" alt="Valheim screenshot"></a>
+                            </div>
+                            <div class="featured-sub-status">
+                                <h4 class="status-primary">Early Access Now Available</h4>
+                                <h5 class="status-secondary">Top Seller</h5>
+                                <h6 class="featured-sub-price">P449.95</h6>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="special-offers">
+                    <div class="section__top">
+                        <h2 class="section__header">
+                            Special Offers
+                        </h2>
+                        <a href="#" class="section__header__link">Browse More</a>
+                    </div>
+                    <div class="special-offers-grid">              
+                        <a href="#" class="card">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/289070/header.jpg?t=1616688275" class="special-offers__img" alt="Special offer">
+                            <div class="card__footer">
+                                <div class="card__deal">
+                                    <h3 class="card__title"></h3>
+                                    <h5 class="card__time"></h5>
+                                </div>
+                                <div class="card__value">
+                                    <h4 class="card__discount">-75%</h4>
+                                    <div class="card__prices">
+                                        <h4 class="card__price-old">P2190.00</h4>
+                                        <h4 class="card__price">P547.50</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/594650/header.jpg?t=1617035176" class="special-offers__img" alt="Special offer">
+                            <div class="card__footer">
+                                <div class="card__deal">
+                                    <h3 class="card__title"></h3>
+                                    <h5 class="card__time"></h5>
+                                </div>
+                                <div class="card__value">
+                                    <h4 class="card__discount">-50%</h4>
+                                    <div class="card__prices">
+                                        <h4 class="card__price-old">P1049.00</h4>
+                                        <h4 class="card__price">P524.50</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <img src="./images/special_offers/1.jpg" class="special-offers__img" alt="Special offer">
+                            <div class="card__footer">
+                                <div class="card__deal">
+                                    <h3 class="card__title">Today's deal!</h3>
+                                    <h5 class="card__time">4 Days</h5>
+                                </div>
+                                <div class="card__value">
+                                    <h4 class="card__discount">-50%</h4>
+                                    <div class="card__prices">
+                                        <h4 class="card__price-old">P744.95</h4>
+                                        <h4 class="card__price">P372.47</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <img src="./images/special_offers/2.jpg" class="special-offers__img" alt="Special offer">
+                            <div class="card__footer">
+                                <div class="card__deal">
+                                    <h3 class="card__title"></h3>
+                                    <h5 class="card__time"></h5>
+                                </div>
+                                <div class="card__value">
+                                    <h4 class="card__discount">-50%</h4>
+                                    <div class="card__prices">
+                                        <h4 class="card__price-old">P744.95</h4>
+                                        <h4 class="card__price">P372.47</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <img src="./images/special_offers/3.jpg" class="special-offers__img" alt="Special offer">
+                            <div class="card__footer">
+                                <div class="card__deal">
+                                    <h3 class="card__title">Today's deal!</h3>
+                                    <h5 class="card__time">4 Days</h5>
+                                </div>
+                                <div class="card__value">
+                                    <h4 class="card__discount">-50%</h4>
+                                    <div class="card__prices">
+                                        <h4 class="card__price-old">P744.95</h4>
+                                        <h4 class="card__price">P372.47</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <img src="./images/special_offers/4.jpg" class="special-offers__img" alt="Special offer">
+                            <div class="card__footer">
+                                <div class="card__deal">
+                                    <h3 class="card__title"></h3>
+                                    <h5 class="card__time"></h5>
+                                </div>
+                                <div class="card__value">
+                                    <h4 class="card__discount">-50%</h4>
+                                    <div class="card__prices">
+                                        <h4 class="card__price-old">P744.95</h4>
+                                        <h4 class="card__price">P372.47</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+                <section class="community-recommends">
+                    <h1 class="community-recommends-title">The Community Recommends</h1>
+                    <div class="section__top">
+                        <h2 class="section__header">These Games Today</h2>
+                        <a href="#" class="section__header__link">Customize, Explore, By Tag, & More</a>
+                    </div>
+                    <div class="community-recommends-grid">
+                        <a href="#">
+                            <img src="images/community/amongus.jpg" class="community-recommends-img" alt="Among us">
+                        </a>
+                        <div class="community-recommends-review">
+                            <div class="review-text">
+                                <p>"This game made me turn to drinking my own bathwater at night and gargle with cat pee often )_) 10/10"</p>
+                            </div>
+                            <div class="review-author">
+                                <h3 class="author-name">Zer0</h3>
+                                <h4 class="author-timeplayed">Played 72.4 hrs at review thing</h4>
+                                <h4 class="author-reach">5 people found this review helpful</h4>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="browse-steam">
+                    <h2 class="section__header">Browse Steam</h2>
+                    <div class="browse-steam-buttons">
+                        <a href="#" class="browse-steam-button space-right">New Releases</a>
+                        <a href="#" class="browse-steam-button space-right">Specials</a>
+                        <a href="#" class="browse-steam-button space-right">Free Games</a>
+                        <a href="#" class="browse-steam-button">By User Tags</a>
+                    </div>
+                </section>
+                <section class="popular-vr-games">
+                    <div class="section__top">
+                        <h2 class="section__header">Popular VR Games</h2>
+                        <a href="#" class="section__header__link">Browse All</a>
+                    </div>
+                    <div class="showcase">
+                        <a href="#" class="card space-right">
+                            <img src="./images/vr/1.jpg" class="showcase__img" alt="Popular VR game">
+                            <div class="card__footer">
+                                <h4 class="card__price">P449.96</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="card space-right">
+                            <img src="./images/vr/2.jpg" class="showcase__img" alt="Popular VR game">
+                            <div class="card__footer">
+                                <h4 class="card__price">P449.96</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="card space-right">
+                            <img src="./images/vr/3.jpg" class="showcase__img" alt="Popular VR game">
+                            <div class="card__footer">
+                                <h4 class="card__price">P449.96</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <img src="./images/vr/4.jpg" class="showcase__img" alt="Popular VR game">
+                            <div class="card__footer">
+                                <h4 class="card__price">P449.96</h4>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </section>
+                <section class="games-streaming-now">
+                    <div class="section__top">
+                        <h2 class="section__header">Games Streaming Now</h2>
+                        <a href="#" class="section__header__link">View All</a>
+                    </div>
+                    <div class="games-streaming-grid">
+                        <a href="#" class="card">
+                            <div class="card__header">
+                                <img src="./images/games_streaming_now/1.jpg" class="games-streaming-now__img" alt="Game stream thumbnail">
+                            </div>
+                            <div class="card__footer">
+                                <h3 class="card__game-title">Loop Hero</h3>
+                                <h3 class="card__viewer-count">11,943</h3>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <div class="card__header">
+                                <img src="./images/games_streaming_now/2.jpg" class="games-streaming-now__img" alt="Game stream thumbnail">
+                            </div>
+                            <div class="card__footer">
+                                <h3 class="card__game-title">Runes of Magic</h3>
+                                <h3 class="card__viewer-count">6,009</h3>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <div class="card__header">
+                                <img src="./images/games_streaming_now/3.jpg" class="games-streaming-now__img" alt="Game stream thumbnail">
+                            </div>
+                            <div class="card__footer">
+                                <h3 class="card__game-title">Nibiru</h3>
+                                <h3 class="card__viewer-count">3,584</h3>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <div class="card__header">
+                                <img src="./images/games_streaming_now/4.jpg" class="games-streaming-now__img" alt="Game stream thumbnail">
+                            </div>
+                            <div class="card__footer">
+                                <h3 class="card__game-title">Ghost Stories 2</h3>
+                                <h3 class="card__viewer-count">2,377</h3>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <div class="card__header">
+                                <img src="./images/games_streaming_now/5.jpg" class="games-streaming-now__img" alt="Game stream thumbnail">
+                            </div>
+                            <div class="card__footer">
+                                <h3 class="card__game-title">Ranch Simulator</h3>
+                                <h3 class="card__viewer-count">1,505</h3>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <div class="card__header">
+                                <img src="./images/games_streaming_now/6.jpg" class="games-streaming-now__img" alt="Game stream thumbnail">
+                            </div>
+                            <div class="card__footer">
+                                <h3 class="card__game-title">Aim Lab</h3>
+                                <h3 class="card__viewer-count">1,390</h3>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+                <section class="under-p400">
+                    <div class="section__top">
+                        <h2 class="section__header">Under P400</h2>
+                        <div>
+                            <a href="#" class="section__header__link">Under P400</a>
+                            <a href="#" class="section__header__link">Under P200</a>
+                        </div>
+                    </div>
+                    <div class="showcase">
+                        <a href="#" class="card space-right">
+                            <img src="./images/underx/1.jpg" class="showcase__img" alt="Game under 400">
+                            <div class="card__footer">
+                                <h4 class="card__price">P349.96</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="card space-right">
+                            <img src="./images/underx/2.jpg" class="showcase__img" alt="Game under 400">
+                            <div class="card__footer">
+                                <h4 class="card__price">P349.96</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="card space-right">
+                            <img src="./images/underx/3.jpg" class="showcase__img" alt="Game under 400">
+                            <div class="card__footer">
+                                <h4 class="card__price">P349.96</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="card space-right">
+                            <img src="./images/underx/4.jpg" class="showcase__img" alt="Game under 400">
+                            <div class="card__footer">
+                                <h4 class="card__price">P349.96</h4>
+                            </div>
+                        </a>
+                       
+                    </div>
+                </section>
+                <section class="updates-and-offers">
+                    <h2 class="section__header">Updates and Offers</h2>
+                    <div class="updates-and-offers-grid">
+                        <a href="#" class="card big-card">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/marketing/6202922930222957321//images/english.jpg" class="updates-and-offers__img-large" alt="Big offer">
+                            <div class="card__footer">
+                                <h4 class="card__discount">Up to -80%</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="card gap">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/marketing/8200503489163098//images/english.gif" class="updates-and-offers__img" alt="Small offer">
+                            <div class="card__footer">
+                                <h4 class="card__discount">-20%</h4>
+                                <h4 class="card__price-old">P549.95</h4>
+                                <h4 class="card__price">P439.96</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="card gap">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/marketing/7827264633654356821//images/message_image.gif" class="updates-and-offers__img" alt="Small offer">
+                            <div class="card__footer">
+                                <h4 class="card__price">P1,480.00</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="card gap">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/marketing/8693948080039859629//images/message_image.gif" class="updates-and-offers__img" alt="Small offer">
+                            <div class="card__footer">
+                                <h4 class="card__discount">-15%</h4>
+                                <h4 class="card__price-old">P399.95</h4>
+                                <h4 class="card__price">P339.96</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="card gap">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/marketing/8725334001606241600//images/english.gif" class="updates-and-offers__img" alt="Small offer">
+                            <div class="card__footer">
+                                <h4 class="card__discount">-20%</h4>
+                                <h4 class="card__price-old">P449.95</h4>
+                                <h4 class="card__price">P359.96</h4>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+            <div class="item item-right"></div>     
+        </div>
+        <footer class="footer">
+            <h2 class="footer-header">Looking for recommendations?</h2>
+            <div class="footer-content">
+                <p>Sign in to new personalized recommendations</p>
+                <a href="#" class="footer-button">Sign in</a>
+                <p>Or
+                    <a href="#" class="footer-link">sign up</a>
+                    and join Steam for free
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

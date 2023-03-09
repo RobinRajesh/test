@@ -1,0 +1,57 @@
+.special-offers-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;
+}
+
+.special-offers .card__footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #AFDDF5;
+}
+
+.special-offers .card__deal {
+  padding: 7px 7px 4px;  
+}
+
+.special-offers .card__title {
+  color: #283846;
+  font-size: 11px;
+}
+
+.special-offers .card__time {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin: 4px 0 0;
+  padding: 0 4px;
+  background-color: #4F95BD;
+  color: #C4E4F2;
+  font-size: 10px;
+}
+
+.special-offers .card__value {
+  padding: 5px;
+}
+
+.special-offers .card__discount {
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  font-size: 26px;
+}
+
+.special-offers .card__prices {
+  padding: 4px 10px 4px 7px;
+  background-color: rgba(20,31,44,0.8);
+}
+
+.special-offers .card__price-old {
+  text-align: right;
+  font-size: 11px;
+}
+
+.special-offers .card__price {
+  font-size: 13px;
+}
